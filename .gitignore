@@ -1,0 +1,9 @@
+# Ignora a pasta de backups locais e audiobooks gerados
+projetos_audiobook/
+
+# Ignora ambientes virtuais e caches do Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store

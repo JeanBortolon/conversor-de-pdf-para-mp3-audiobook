@@ -1,0 +1,17 @@
+# Cria toda a interface web interativa (upload de PDF, player de áudio e botões de download)
+streamlit>=1.35.0
+
+# Motor de alta performance (PyMuPDF / fitz) para ler a estrutura interna e fontes do PDF
+pymupdf>=1.24.0
+
+# Conecta gratuitamente ao sintetizador neural de voz da Microsoft (Edge Read Aloud)
+edge-tts>=7.0.0
+
+# Faz as chamadas HTTP para as APIs de voz em nuvem (Google Gemini, OpenAI e ElevenLabs)
+requests>=2.31.0
+
+# Fornece o executável do FFmpeg embutido (sem precisar instalar o FFmpeg manualmente no Windows/Linux/Mac)
+imageio-ffmpeg>=0.5.1
+
+# Dicionário de frequência da língua portuguesa usado para separar palavras coladas em títulos estilizados
+wordfreq>=3.1.1
